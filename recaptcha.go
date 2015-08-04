@@ -1,5 +1,7 @@
 package recaptcha
 
+//go:generate ffjson -noencoder $GOFILE
+
 import (
 	"encoding/json"
 	"net/http"
